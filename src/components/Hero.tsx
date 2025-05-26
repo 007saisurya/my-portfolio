@@ -42,8 +42,8 @@ const Hero = () => {
             <div className="text-sm">Schools Impacted</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-white">200K+</div>
-            <div className="text-sm">Books Sold</div>
+            <div className="text-2xl font-bold text-white">1.3M+</div>
+            <div className="text-sm">Children Reached</div>
           </div>
         </div>
       </div>
