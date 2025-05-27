@@ -70,24 +70,6 @@ const Projects = () => {
       technologies: ["Business Analytics", "Market Research", "Strategic Planning", "Consulting", "Data Strategy"],
       metrics: { scope: "North America", impact: "Strategic Insights" },
       icon: Code
-    },
-    {
-      title: "Dialectics Educational Platform",
-      period: "May 2022 - Present",
-      role: "Founder & CEO",
-      description: "Founded and scaled an innovative edtech venture focusing on economics education for public schools.",
-      achievements: [
-        "Authored and scaled the Swaminathan and Tara book series",
-        "Reached over 200,000 books sold under the same brand name",
-        "Built edtech venture delivering comic-based economic education",
-        "Content adopted by Government of Andhra Pradesh for 2025-26 curriculum",
-        "Expanded reach to 5,800+ public schools",
-        "Impacted 1.3 million children through educational initiatives"
-      ],
-      technologies: ["Educational Technology", "Content Strategy", "Publishing", "Government Relations"],
-      metrics: { schools: "5,800+", books: "200,000+", students: "1.3M+" },
-      link: "https://thedialectics.co.in/",
-      icon: BookOpen
     }
   ];
 
@@ -98,7 +80,7 @@ const Projects = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-white mb-6">My Projects</h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              A showcase of impactful projects spanning technology, healthcare analytics, education, and business strategy. 
+              A showcase of impactful projects spanning technology, healthcare analytics, and business strategy. 
               Each project demonstrates my ability to drive meaningful results across diverse domains.
             </p>
           </div>
