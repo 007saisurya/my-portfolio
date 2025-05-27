@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -7,20 +6,20 @@ import { Calendar, MapPin, Users, TrendingUp, BookOpen, Code, Building2, Graduat
 const WorkExperience = () => {
   const experiences = [
     {
-      title: "Founder & CEO",
-      company: "Dialectics Educational Platform",
-      period: "May 2022 - Present",
-      location: "India",
-      description: "Founded and scaled an innovative edtech venture focusing on economics education for public schools.",
+      title: "Graduate Student Researcher & Teaching Assistant",
+      company: "Arizona State University",
+      period: "August 2024 - Present",
+      location: "Arizona, USA",
+      description: "Pursuing MBA in Business Analytics & Supply Chain Management while working on cutting-edge research projects.",
       achievements: [
-        "Founded and scaled edtech venture with 200,000+ books sold",
-        "Expanded reach to 5,800+ public schools impacting 1.3 million children",
-        "Content adopted by Government of Andhra Pradesh for 2025-26 curriculum",
-        "Authored Swaminathan and Tara book series",
-        "Built comic-based economic education platform"
+        "Working on AI-powered turbine optimization for GE Aerospace",
+        "Optimizing Emergency Room operations at Mayo Clinic Scottsdale",
+        "Teaching Assistant for MS in Artificial Intelligence program",
+        "Focusing on supply chain analytics and data-driven decision making",
+        "Combining business strategy with advanced analytics"
       ],
-      technologies: ["Educational Technology", "Content Strategy", "Publishing", "Government Relations", "Business Development"],
-      icon: BookOpen
+      technologies: ["Machine Learning", "Supply Chain Analytics", "Business Analytics", "Healthcare Operations", "Teaching"],
+      icon: GraduationCap
     },
     {
       title: "Program Manager",
@@ -38,6 +37,22 @@ const WorkExperience = () => {
       ],
       technologies: ["SAP FICO", "Excel Optimization", "Operations Management", "Revenue Analytics", "Team Leadership"],
       icon: Users
+    },
+    {
+      title: "Founder & CEO",
+      company: "Dialectics Educational Platform",
+      period: "May 2022 - Present",
+      location: "India",
+      description: "Founded and scaled an innovative edtech venture focusing on economics education for public schools.",
+      achievements: [
+        "Founded and scaled edtech venture with 200,000+ books sold",
+        "Expanded reach to 5,800+ public schools impacting 1.3 million children",
+        "Content adopted by Government of Andhra Pradesh for 2025-26 curriculum",
+        "Authored Swaminathan and Tara book series",
+        "Built comic-based economic education platform"
+      ],
+      technologies: ["Educational Technology", "Content Strategy", "Publishing", "Government Relations", "Business Development"],
+      icon: BookOpen
     },
     {
       title: "Strategic Consultant & Project Manager",
@@ -87,22 +102,6 @@ const WorkExperience = () => {
       ],
       technologies: ["Java", "Angular JS", "SWIFT", "Payment Processing", "Automated Testing", "Financial Systems"],
       icon: Code
-    },
-    {
-      title: "Graduate Student Researcher & Teaching Assistant",
-      company: "Arizona State University",
-      period: "August 2024 - Present",
-      location: "Arizona, USA",
-      description: "Pursuing MBA in Business Analytics & Supply Chain Management while working on cutting-edge research projects.",
-      achievements: [
-        "Working on AI-powered turbine optimization for GE Aerospace",
-        "Optimizing Emergency Room operations at Mayo Clinic Scottsdale",
-        "Teaching Assistant for MS in Artificial Intelligence program",
-        "Focusing on supply chain analytics and data-driven decision making",
-        "Combining business strategy with advanced analytics"
-      ],
-      technologies: ["Machine Learning", "Supply Chain Analytics", "Business Analytics", "Healthcare Operations", "Teaching"],
-      icon: GraduationCap
     }
   ];
 
