@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl md:text-2xl text-white/80 mb-8 leading-relaxed">
             Experienced professional with 7+ years across technology, supply chain, and finance. 
-            Former full-stack developer turned business strategist, pursuing MBA on a 100% scholarship from WP Carey School of Business with AI specialization.
+            Former full-stack developer turned business strategist, pursuing MBA on a 100% scholarship from WP Carey School of Business.
           </p>
         </div>
         
