@@ -93,16 +93,6 @@ const Projects = () => {
                     <div className="flex-1">
                       <CardTitle className="text-2xl text-white mb-2 flex items-center gap-3">
                         {project.title}
-                        {project.link && (
-                          <a 
-                            href={project.link} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-400 hover:text-blue-300 transition-colors"
-                          >
-                            <ExternalLink className="h-5 w-5" />
-                          </a>
-                        )}
                       </CardTitle>
                       <div className="flex items-center gap-4 text-white/60 mb-3">
                         <span className="flex items-center gap-2">
